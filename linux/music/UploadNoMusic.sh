@@ -2,7 +2,7 @@
 
 echo "===== Subiendo carpeta No Music a Google Drive ====="
 
-rclone copy "/home/fuis18/Music/No Music" "Cloudfuis:MusicDrive/No Music" \
+rclone copy "/home/fuis18/Music/No Music" "cloudwar:MusicDrive/No Music" \
     --progress --transfers=4 --checkers=8 --update --verbose
 
 echo "===== Subida completada ====="
