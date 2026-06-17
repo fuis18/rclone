@@ -4,15 +4,17 @@
 
 https://rclone.org/downloads/
 
-https://downloads.rclone.org/v1.72.0/rclone-v1.72.0-windows-amd64.zip
+### archlinux
 
-## Crear Path
+´sudo pacman -S rclone´
+
+### windows
+
+[Donwload for Windows](https://downloads.rclone.org/v1.72.0/rclone-v1.72.0-windows-amd64.zip)
 
 Mover los archivos y carpetas a C:/rclone
 
-```sh
-cd rclone
-```
+Crear path en las variables de entorno
 
 ## Crear cloud
 
@@ -27,7 +29,6 @@ name> Cloudfuis
 [DOCS](https://rclone.org/drive/#making-your-own-client-id)
 
 [Console API Google](https://console.developers.google.com/)
-
 
 
 ```sh
